@@ -1,0 +1,34 @@
+General
+	www.kali.org
+
+Server Versions
+	https://learn.microsoft.com/en-us/windows-server/get-started/windows-server-release-info
+	https://learn.microsoft.com/en-us/windows-server/get-started/extended-security-updates-overview
+
+Reduce the Attack Surface​
+	https://learn.microsoft.com/en-us/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server
+	http://www.thedoghousediaries.com/1251
+	https://www.cisecurity.org/benchmark/microsoft_windows_server
+
+Lets Reduce Some Risks
+	https://nordpass.com/most-common-passwords-list/
+
+Overuse of the Domain Admin Account​
+	HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\WDigest\LogonCredential   REG_DWORD  0
+
+Service Accounts: Overprivileged and Unmanaged​
+	https://en.wikipedia.org/wiki/NT_LAN_Manager
+	https://learn.microsoft.com/en-us/windows/win32/ad/service-principal-names
+	https://attack.mitre.org/techniques/T1558/003/
+	https://github.com/fortra/impacket/blob/master/examples/GetUserSPNs.py
+	https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/ad-forest-recovery-resetting-the-krbtgt-password
+
+RDP: It's brutal out there!​
+	https://www.kali.org/tools/masscan/#:~:text=MASSCAN%20is%20TCP%20port%20scanner,arbitrary%20address%20and%20port%20ranges.	
+
+
+Graph Theory: It's not just social​
+	https://github.com/BloodHoundAD/BloodHound/blob/master/README.md
+
+Of course, I asked ChatGPT...
+	chat.openai.com
