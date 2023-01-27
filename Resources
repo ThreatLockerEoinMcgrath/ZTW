@@ -5,6 +5,9 @@ Server Versions
 	https://learn.microsoft.com/en-us/windows-server/get-started/windows-server-release-info
 	https://learn.microsoft.com/en-us/windows-server/get-started/extended-security-updates-overview
 
+Windows Servers.... there is more
+	https://www.rapid7.com/blog/post/2020/10/19/are-you-still-running-end-of-life-windows-servers/#:~:text=What%20we%20found%20was%20alarming,%2C%20while%2041%25%20were%20supported.
+
 Reduce the Attack Surface​
 	https://learn.microsoft.com/en-us/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server
 	http://www.thedoghousediaries.com/1251
@@ -24,7 +27,8 @@ Service Accounts: Overprivileged and Unmanaged​
 	https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/ad-forest-recovery-resetting-the-krbtgt-password
 
 RDP: It's brutal out there!​
-	https://www.kali.org/tools/masscan/#:~:text=MASSCAN%20is%20TCP%20port%20scanner,arbitrary%20address%20and%20port%20ranges.	
+	https://www.kali.org/tools/masscan/#:~:text=MASSCAN%20is%20TCP%20port%20scanner,arbitrary%20address%20and%20port%20ranges.
+	https://www.kali.org/tools/crowbar/
 
 
 Graph Theory: It's not just social​
