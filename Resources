@@ -7,8 +7,9 @@ Server Versions
 
 Windows Servers.... there is more
 	https://www.rapid7.com/blog/post/2020/10/19/are-you-still-running-end-of-life-windows-servers/#:~:text=What%20we%20found%20was%20alarming,%2C%20while%2041%25%20were%20supported.
+	https://www.shodan.io/search/facet?query=Server+os%3A%22Windows%22&facet=os
 
-Reduce the Attack Surface​
+Reduce the Attack Surface
 	https://learn.microsoft.com/en-us/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server
 	http://www.thedoghousediaries.com/1251
 	https://www.cisecurity.org/benchmark/microsoft_windows_server
@@ -16,22 +17,22 @@ Reduce the Attack Surface​
 Lets Reduce Some Risks
 	https://nordpass.com/most-common-passwords-list/
 
-Overuse of the Domain Admin Account​
+Overuse of the Domain Admin Account
 	HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\WDigest\LogonCredential   REG_DWORD  0
 
-Service Accounts: Overprivileged and Unmanaged​
+Service Accounts: Overprivileged and Unmanaged
 	https://en.wikipedia.org/wiki/NT_LAN_Manager
 	https://learn.microsoft.com/en-us/windows/win32/ad/service-principal-names
 	https://attack.mitre.org/techniques/T1558/003/
 	https://github.com/fortra/impacket/blob/master/examples/GetUserSPNs.py
 	https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/ad-forest-recovery-resetting-the-krbtgt-password
 
-RDP: It's brutal out there!​
+RDP: It's brutal out there!
 	https://www.kali.org/tools/masscan/#:~:text=MASSCAN%20is%20TCP%20port%20scanner,arbitrary%20address%20and%20port%20ranges.
 	https://www.kali.org/tools/crowbar/
 
 
-Graph Theory: It's not just social​
+Graph Theory: It's not just social
 	https://github.com/BloodHoundAD/BloodHound/blob/master/README.md
 
 Of course, I asked ChatGPT...
