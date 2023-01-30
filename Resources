@@ -40,6 +40,8 @@ RDP: It's brutal out there!
 	https://www.kali.org/tools/masscan/#:~:text=MASSCAN%20is%20TCP%20port%20scanner,arbitrary%20address%20and%20port%20ranges.
 	https://www.kali.org/tools/crowbar/
 
+Active Directory Schema (AD AS)
+	https://learn.microsoft.com/en-us/windows/win32/ad/active-directory-schema
 
 Graph Theory: It's not just social
 	https://github.com/BloodHoundAD/BloodHound/blob/master/README.md
