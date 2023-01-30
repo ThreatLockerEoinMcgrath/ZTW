@@ -17,8 +17,17 @@ Reduce the Attack Surface
 Lets Reduce Some Risks
 	https://nordpass.com/most-common-passwords-list/
 
+Some other easy wins!
+	Users
+	Get-ADUser -filter * -Properties lastLogon | select DistinguishedName, @{N='LastLogon'; E={[DateTime]::FromFileTime($_.LastLogon)}}, Enabled
+	Computers
+	Get-ADComputer -filter * -Properties lastLogon | select DistinguishedName, @{N='LastLogon'; E={[DateTime]::FromFileTime($_.LastLogon)}}, Enabled
+
 Overuse of the Domain Admin Account
 	HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\WDigest\LogonCredential   REG_DWORD  0
+
+Monitor for Privileged Account Changes
+	https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/audit-security-group-management
 
 Service Accounts: Overprivileged and Unmanaged
 	https://en.wikipedia.org/wiki/NT_LAN_Manager
