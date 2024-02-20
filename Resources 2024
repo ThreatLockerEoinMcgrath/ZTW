@@ -25,6 +25,10 @@ Some other easy wins!
 	Computers
 	Get-ADComputer -filter * -Properties lastLogon | select DistinguishedName, @{N='LastLogon'; E={[DateTime]::FromFileTime($_.LastLogon)}}, Enabled
 
+Why is a this necessary?
+	https://www.pressreader.com/ireland/the-irish-mail-on-sunday/20230917/281822878401835
+	https://www.pressreader.com/uk/the-irish-mail-on-sunday/20230917/281809993499947/textview
+
 Overuse of the Domain Admin Account
 	HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\WDigest\LogonCredential   REG_DWORD  0
 
