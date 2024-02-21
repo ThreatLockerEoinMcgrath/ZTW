@@ -19,6 +19,10 @@ Reduce the Attack Surface
 Lets Reduce Some Risks
 	https://nordpass.com/most-common-passwords-list/
 
+Notable trends
+	https://redmondmag.com/Articles/2024/02/21/Survey-Finds-Active-Directory-Outages-on-the-Rise.aspx
+	https://petri.com/ad-forest-outage-survey-2024/
+	
 Some other easy wins!
 	Users
 	Get-ADUser -filter * -Properties lastLogon | select DistinguishedName, @{N='LastLogon'; E={[DateTime]::FromFileTime($_.LastLogon)}}, Enabled
