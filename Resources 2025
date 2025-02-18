@@ -38,9 +38,26 @@ https://attack.mitre.org/versions/v14/techniques/T1486/
 https://attack.mitre.org/versions/v14/techniques/T1485/
 https://attack.mitre.org/versions/v14/mitigations/M1053/
 https://attack.mitre.org/versions/v14/mitigations/M1029/
-
 https://d3fend.mitre.org/technique/d3f:DataInventory/
 https://d3fend.mitre.org/technique/d3f:RestoreFile/
+
+Active Directory
+https://github.com/SpecterOps/BloodHound-Legacy
+https://www.pingcastle.com/
+
+Passwordless Authentication
+https://www.microsoft.com/en-us/security/business/solutions/passwordless-authentication
+
+Logon Types
+https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types
+
+Bloodhound Edges
+https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html
+
+Exchange Split Permissions
+https://learn.microsoft.com/en-us/exchange/permissions/split-permissions/configure-exchange-for-split-permissions?view=exchserver-2019
+
+
 
 
 
