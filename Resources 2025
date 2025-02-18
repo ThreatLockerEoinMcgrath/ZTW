@@ -1,1 +1,46 @@
 2025 Content
+
+securing cloud data
+Microsoft https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-cloud-storage
+Amazon https://aws.amazon.com/what-is/cloud-storage/
+Google https://cloud.google.com/storage/docs/introduction
+
+Data Deletion https://learn.microsoft.com/en-us/compliance/assurance/assurance-data-bearing-device-destruction
+
+Quick Refrence to mitre vectors
+https://attack.mitre.org/
+
+
+https://attack.mitre.org/versions/v14/techniques/T1530/
+https://attack.mitre.org/versions/v14/techniques/T1040/
+
+https://attack.mitre.org/versions/v14/mitigations/M1041/
+
+https://d3fend.mitre.org/technique/d3f:DiskEncryption/
+https://d3fend.mitre.org/technique/d3f:FileEncryption/
+https://d3fend.mitre.org/technique/d3f:EncryptedTunnels/
+
+https://attack.mitre.org/versions/v14/mitigations/M1018/
+https://attack.mitre.org/versions/v14/mitigations/M1022/
+https://d3fend.mitre.org/technique/d3f:AccessModeling/
+https://d3fend.mitre.org/technique/d3f:LocalFilePermissions/
+
+https://attack.mitre.org/versions/v14/techniques/T1619/
+https://attack.mitre.org/versions/v14/mitigations/M1035/
+https://attack.mitre.org/versions/v14/mitigations/M1022/
+
+https://d3fend.mitre.org/technique/d3f:AccessModeling/
+https://d3fend.mitre.org/technique/d3f:NetworkTrafficPolicyMapping/
+https://d3fend.mitre.org/technique/d3f:LocalFilePermissions/
+https://d3fend.mitre.org/technique/d3f:InboundTrafficFiltering/
+
+https://attack.mitre.org/versions/v14/techniques/T1486/
+https://attack.mitre.org/versions/v14/techniques/T1485/
+https://attack.mitre.org/versions/v14/mitigations/M1053/
+https://attack.mitre.org/versions/v14/mitigations/M1029/
+
+https://d3fend.mitre.org/technique/d3f:DataInventory/
+https://d3fend.mitre.org/technique/d3f:RestoreFile/
+
+
+
